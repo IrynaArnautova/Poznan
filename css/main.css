@@ -569,7 +569,7 @@ footer .navbar {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .main-section h2 {
         width: 100%;
         background-color:  rgba(255, 255, 255, 0.9);
@@ -606,25 +606,6 @@ footer .navbar {
         margin-bottom: 10px;
     }
 
-    /*
-
-    .article-content-1 .date {
-        margin-right: 27px;
-    }
-
-    .article-content-2 {
-        flex-direction: column;
-    }
-
-    .article-content-2-background {
-        width: 100%;
-        margin-bottom: 15px;
-    }
-
-    .your-ad-here {
-        margin-top: 10px;
-    }*/
-
     aside {
         display: inline-flex;
         order: 2;
@@ -641,9 +622,61 @@ footer .navbar {
     }
 
 
+    .article-content-1-comment {
+        position: initial;
+    }
+
+    .article-content-1-btn {
+        max-width: 100%;
+    }
+
+    .article-content-2-background {
+        width: 100%;
+        margin-bottom: 15px;
+    }
 
 
+    .article-content-2 {
+        flex-direction: column;
+    }
 
+    .your-ad-here {
+        margin-top: 10px;
+    }
+
+
+    aside .author, aside .post, aside .currency {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+    aside {
+        flex-direction: column;
+    }
+
+    footer .additional-responsive {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .navbar {
+        justify-content: center!important;
+        padding-top: 0;
+    }
+
+    .heading {
+        margin-top: 15px;
+    }
+
+    header .navbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 
